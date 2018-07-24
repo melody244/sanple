@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, target-densitydpi=medium-dpi">
+    <meta name="title" content="導遊列車驛站">
+    <meta name="KeyWords" content="">
+    <meta name="Description" content="">
+    <meta name="copyright" content="本網頁著作權屬智凰網路科技所有！">
+    <meta name="Robots" content="INDEX,FOLLOW">
+    <meta name="revisit-after" content="1">
+	<title>導遊列車驛站</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link href="css/font-awesome.min.css"  rel="stylesheet" >
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+<body>
+<div class="wrap" style="height: 100%;">
+<!-- head -->
+<nav class="navbar">
+<div class="clearfix content">
+   <button class="fa fa-bars" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="navbar-brand">導遊列車驛站</div>
+</div>
+  <div class="collapse" id="exCollapsingNavbar">
+    <div class="text-muted p-1">
+    <ul class="nav navbar-nav">
+     <li class="nav-item"><a class="nav-link" href="index.html" title="首頁">首頁</a></li>
+      <li class="nav-item"><a class="nav-link" href="login.html" title="成員專區">成員專區</a></li>
+      <li class="nav-item"><a class="nav-link" href="page-03.html" title="受訓情報">受訓情報</a></li>
+      <li class="nav-item"><a class="nav-link" href="page-08.html" title="購物店情報">購物店情報</a></li>
+      <li class="nav-item"><a class="nav-link" href="page-07.html" title="遊覽車公司">遊覽車公司</a></li>
+      <li class="nav-item"><a class="nav-link" href="page-04.html" title="住宿介紹">住宿介紹</a></li>
+      <li class="nav-item"><a class="nav-link" href="page-05.html" title="寄鋪情報">寄鋪情報</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" title="參考行程">參考行程</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" title="急難救助單位">急難救助單位</a></li>
+      <li class="nav-item"><a class="nav-link" href="page-06.html" title="餐廳情報">餐廳情報</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" title="保險公司一覽">保險公司一覽</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<!-- /head -->
+<!-- banner-L -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <h1 class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img src="images/banner02.jpg" alt="會員登入">
+    </div>
+  </h1>
+</div>
+<!-- /banner-L -->
+<!-- content -->
+<div class="container bgcolor-ff">
+<form class="form-wrap">
+<div class="form-group row">
+<label for="01" class="col-xs-3 col-form-label">帳號</label>
+<div class="col-xs-9">
+    <input class="form-control" type="text" placeholder="帳號" id="01">
+  </div>
+</div>
+<div class="form-group row">
+<label for="02" class="col-xs-3 col-form-label">密碼</label>
+<div class="col-xs-9">
+    <input class="form-control" type="password" placeholder="密碼" id="02">
+  </div>
+</div>
+<div class="form-group row has-success">
+<label for="03" class="col-xs-3 col-form-label">驗證碼</label>
+    <div class="col-xs-9">
+    <div class="code-wrap">
+    <input type="text" class="form-control" placeholder="驗證碼" id="03">
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
+     <iframe class="left code-nb" src="http://mall.easytravel.com.tw/VerKey.aspx" width="75" height="35" name="frame1" id="frame1" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+    <a href="javascript: void(0)" class="refresh">換一個<i class="fa fa-refresh"></i></a>
+       <p class="error-att clearfix hide"></p>
+    </div>
+  </div>
+</form>
+<div class="row content-normal">
+  <div class="col-sm-6 btn-wrap-block">
+  <button onclick="javascript:self.location.href='page-02.html'" type="submit" class="btn btn-lg btn-primary btn-block" >登入</button></div>
+<div class="col-sm-6 btn-wrap-block">
+<button type="submit" onclick="javascript:self.location.href='signup.html'" class="btn btn-lg btn-warning btn-block">註冊會員</button></div>
+      <p>我忘記密碼，<a href="#" target="_blank">取得新密碼？</a></p>
+  </div>
+</div>
+
+<!-- /content -->
+<!-- banner-S -->
+<div class="banner">
+<a href="#" title=""><img src="images/banner-s.jpg"  class="img-fluid" alt=""></a>
+</div>
+<!-- /banner-S -->
+<!-- footer -->
+<footer>台灣數位傳播與內容發展協會<br>
+此站提供您導遊培訓、導遊受訓、導遊訓練報名、導遊帶團、國內外踩線團資訊
+</footer>
+<!-- /footer -->
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+	$('.collapse').collapse('hide')
+</script>
+</body>
+</html>
